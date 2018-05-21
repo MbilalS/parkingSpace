@@ -1,0 +1,1 @@
+Postgrex.Types.define(FindmeaparkingspaceBackend.PostgresTypes, [Geo.PostGIS.Extension] ++ Ecto.Adapters.Postgres.extensions(), json: Poison)
